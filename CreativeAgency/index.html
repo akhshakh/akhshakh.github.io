@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script> 
+    <style>
+        .scroll,
+        .scroll1,
+        .scroll3,
+        .scroll4,
+        .scroll7,
+        .profilebox,
+        .touch .social,
+        .price .img,
+        .featurebox ul li,
+        .featurebox ul li {
+            visibility: hidden;
+        }
+        .loading {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            background: #fff;
+            width: 100%;
+            z-index: 1010;
+        }
+    .loading h1{
+    
+        animation: loading 1s ease-in-out infinite ;
+    }
+    @keyframes loading {
+        0% {
+            transform: scale(1,1);
+        }
+        50% {
+            transform: scale(2, 2) ;
+        }
+        100% {
+            transform: scale(1,1);
+        }
+    }
+
+        
+        
+    </style>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+    <title>Digital</title>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="d-flex h-100 w-100 text-center">
+            <h3 style="position: absolute; top: 10%; width: 100%">Loading</h3>
+            <div class="m-auto">               
+                <h1 style="font-size: 250px;"><span>.</span></h1>
+            </div>
+    </div>
+    </div>
+    <section class="header" id="home">
+        <div class="background">
+            <img src="img/headerbg.png" alt="">
+        </div>
+        <div class="menu-top">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="menu">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h1>digital<span>.</span>
+                        </h1>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#home">Features
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#clients">Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#price">Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Contacts</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <div class="headerText scroll1" >
+            <h3>Simply the Best</h3>
+            <p class="bold">Reasons for Choosing Us</p>
+            <p class="width">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+            <div class="mybtn">read more</div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 scroll4">
+                    <div class="info">
+                        <div class="img">
+                            <img src="img/info1.png" alt="">
+                        </div>
+                        <div class="textbox text-center">
+                            <p class="bold">Best TrackRecord</p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute </p>
+                            <div class="thebtn">read more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 scroll4">
+                    <div class="info">
+                        <div class="img">
+                            <img src="img/info2.png" alt="">
+                        </div>
+                        <div class="textbox text-center">
+                            <p class="bold">Trusted by leaders</p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute </p>
+                            <div class="thebtn">read more</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 scroll4">
+                    <div class="info">
+                        <div class="img">
+                            <img src="img/info3.png" alt="">
+                        </div>
+                        <div class="textbox text-center">
+                            <p class="bold">Brand Equity</p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute </p>
+                            <div class="thebtn">read more</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we scroll3" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 scroll">
+                    <h3>We are
+                        <br> Creative Agency</h3>
+                    <p class="regular">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+                    <div class="thebtn">Read More</div>
+                </div>
+                <div class="col-lg-4">
+                    <p class="regular italic scroll2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur.</p>
+                    <h3 class="name scroll2">Anita Allen</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="clients">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="position">
+                    <div class="textbox">
+                        <h3>Amazing features</h3>
+                        <div class="x">x</div>
+                        <p class="regular italic">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur.
+                        </p>
+                        <div class="thebtn">read more</div>
+                    </div>
+                </div>
+                <div class="featImg scroll">
+                    <img src="img/features1.png" alt="">
+                </div>
+                <div class="featImg scroll">
+                    <img src="img/features2.png" alt="">
+                </div>
+                <div class="featImg scroll">
+                    <img src="img/features3.png" alt="">
+                </div>
+                <div class="featImg scroll">
+                    <img src="img/features4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h3>Services
+                        <br> We Provide</h3>
+                    <p class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <div class="thebtn">read more</div>
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="servicesbox scroll2">
+                        <div class="wrapper bord ">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="img/services1.png" alt="">
+                                </div>
+                                Logo & Branding
+                            </div>
+                        </div>
+                        <div class="wrapper bord">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="img/services2.png" alt="">
+                                </div>
+                                Social Media & Branding
+                            </div>
+                        </div>
+                        <div class="wrapper bord ">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="img/services3.png" alt="">
+                                </div>
+                                Digital Products
+                            </div>
+                        </div>
+                        <div class="wrapper bord">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="img/services1.png" alt="">
+                                </div>
+                                Logo & Branding
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="img/services5.png" alt="">
+                                </div>
+                                Loreipsum dolor
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="img/services6.png" alt="">
+                                </div>
+                                Mobile & Web
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3>Our Perfect Team</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="shadow">
+                <div class="row justify-content-center">
+                    <div class="profilebox">
+                        <div class="img">
+                            <img src="img/team2.png" alt="">
+                        </div>
+                        <p class="medium">
+                            Anita Allen
+                        </p>
+                        <p>Graphic Designer</p>
+                    </div>
+                    <div class="profilebox">
+                        <div class="img">
+                            <img src="img/team1.png" alt="">
+                        </div>
+                        <p class="medium">
+                            Jeff Norton
+                        </p>
+                        <p>Graphic Designer</p>
+                    </div>
+                    <div class="profilebox">
+                        <div class="img">
+                            <img src="img/team3.png" alt="">
+                        </div>
+                        <p class="medium">
+                            Jeff Norton
+                        </p>
+                        <p>Graphic Designer</p>
+                    </div>
+                    <div class="profilebox">
+                        <div class="img">
+                            <img src="img/team4.png" alt="">
+                        </div>
+                        <p class="medium">
+                            Anita Allen
+                        </p>
+                        <p>Graphic Designer</p>
+                    </div>
+                    <div class="profilebox">
+                        <div class="img">
+                            <img src="img/team5.png" alt="">
+                        </div>
+                        <p class="medium">
+                            Jeff Norton
+                        </p>
+                        <p>Graphic Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="containerbox">
+                <div class="member scrollActive ">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-4 scroll7">
+                            <div class="profilewrap">
+                                <h3>Anita Allen</h3>
+                                <p class="bold">Full-Stack Developer</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="medium margin">JavaScript</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 0"></div>
+                                    <p class="progressindex"></p>
+                                </div>
+                                <p class="medium">Bootstrap</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 0"></div>
+                                    <p class="progressindex"></p>
+                                </div>
+                                <p class="medium">PHP</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 0"></div>
+                                    <p class="progressindex"></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7 scroll7">
+                            <div class="bio">
+                                <div class="img">
+                                    <img src="img/teambio1.png" alt="">
+                                </div>
+                                <div class="text d-flex flex-column">
+                                    <p class="medium">Ut enim ad minim veniam, quis</p>
+                                    <p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p class="mt-auto">
+                                        <a class="social" href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-vk" aria-hidden="true"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-4">
+                            <div class="profilewrap">
+                                <h3>Jeff Norton</h3>
+                                <p class="bold">Graphic Designer</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="medium margin">Creativity</p>
+                                <div class="progressbox ">
+                                    <div class="progressbar" style="width: 0"></div>
+                                    <p class="progressindex"></p>
+                                </div>
+                                <p class="medium">Teamwork</p>
+                                <div class="progressbox">
+
+                                    <div class="progressbar" style="width: 0"></div>
+                                    <p class="progressindex"></p>
+                                </div>
+                                <p class="medium">Design</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 0"></div>
+                                    <p class="progressindex"></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="bio">
+                                <div class="img">
+                                    <img src="img/team1.png" alt="">
+                                </div>
+                                <div class="text d-flex flex-column">
+                                    <p class="medium">Ut enim ad minim veniam, quis</p>
+                                    <p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p class="mt-auto">
+                                        <a class="social" href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-vk" aria-hidden="true"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-4">
+                            <div class="profilewrap">
+                                <h3>Anita Allen</h3>
+                                <p class="bold">Graphic Designer</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="medium margin">Creativity</p>
+                                <div class="progressbox">
+
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+                                <p class="medium">Teamwork</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+                                <p class="medium">Design</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="bio ">
+                                <div class="img">
+                                    <img src="img/teambio1.png" alt="">
+                                </div>
+                                <div class="text d-flex flex-column">
+                                    <p class="medium">Ut enim ad minim veniam, quis</p>
+                                    <p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p class="mt-auto">
+                                        <a class="social" href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-vk" aria-hidden="true"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-4">
+                            <div class="profilewrap">
+                                <h3>Anita Allen</h3>
+                                <p class="bold">Graphic Designer</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="medium margin">Creativity</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+                                <p class="medium">Teamwork</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+                                <p class="medium">Design</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="bio">
+                                <div class="img">
+                                    <img src="img/teambio1.png" alt="">
+                                </div>
+                                <div class="text d-flex flex-column">
+                                    <p class="medium">Ut enim ad minim veniam, quis</p>
+                                    <p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p class="mt-auto">
+                                        <a class="social" href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-vk" aria-hidden="true"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-4">
+                            <div class="profilewrap">
+                                <h3>Anita Allen</h3>
+                                <p class="bold">Graphic Designer</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                    dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p class="medium margin">Creativity</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+                                <p class="medium">Teamwork</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+                                <p class="medium">Design</p>
+                                <div class="progressbox">
+                                    <div class="progressbar" style="width: 80%"></div>
+                                    <p class="progressindex">80%</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="bio">
+                                <div class="img">
+                                    <img src="img/teambio1.png" alt="">
+                                </div>
+                                <div class="text d-flex flex-column">
+                                    <p class="medium">Ut enim ad minim veniam, quis</p>
+                                    <p>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p class="mt-auto">
+                                        <a class="social" href="#">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="social" href="#">
+                                            <i class="fa fa-vk" aria-hidden="true"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="price" id="price">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="box1 d-flex text-center">
+                    <div class="pricename">
+                        <h3>Professional</h3>
+                        <p class="bold p1">Website Design</p>
+                        <div class="img ">
+                            <img src="img/price.png" alt="">
+                        </div>
+                        <p class="bold p2">Overview</p>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+                    </div>
+                </div>
+                <div class="box2 d-flex">
+                    <div class="featurebox text-center">
+                        <h4>Our Best</h4>
+                        <p class="bold">Feature</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>consectetur adipiscing elit,</li>
+                            <li>ed do eiusmod tempor</li>
+                            <li>ncididunt ut labore et dolore</li>
+                            <li>magna aliqua. Ut enim ad</li>
+                            <li>minim veniam, quis nostrud</li>
+                        </ul>
+                        <div class="thebtn">read more</div>
+                    </div>
+                    <div class="textbox">
+                        <h3>Take your website to the next level</h3>
+                        <p class="bold">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur.</p>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="touch text-center" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Get in Touch</h3>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <a href="#">
+                    <div class="social">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <i class="fa fa-vk" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="d-flex">
+                        <div class="img">
+                            <img src="img/footer1.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="bold">email</p>
+                            <p class="regular">chillman997@gmail.com</p>
+                            <p class="regular">chillman997@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex">
+                        <div class="img">
+                            <img src="img/footer2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="bold">call us</p>
+                            <p class="regular">+998903510998</p>
+                            <p class="regular">+998903510998</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex">
+                        <div class="img">
+                            <img src="img/footer3.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="bold">address</p>
+                            <p class="regular">Tashkent, Uzbekistan</p>
+                            <p class="regular">2741101</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="wrapper">
+                        <h5>Made with Love</h5>
+                        <div class="media d-flex justify-content-center">
+                            <a href="https://kaboomdev.github.io/" class="fa fa-github">
+                            </a>
+                            <a href="https://instagram.com/callmekaboom" class="fa fa-instagram">
+                            </a>
+                        </div>
+
+                        <img src="img/newlogosimplenobg.png" alt="" class="kaboom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sr.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
