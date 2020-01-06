@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Необходимые Мета-теги всегда на первом месте -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="https://kaboomdev.xyz/img/mobile.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://kaboomdev.xyz/" />
+	<meta property="og:title" content="Kaboom's world. Welcome." />
+	<meta property="og:description" content="My personal website consisting of everything that makes me happy." />
+	<title>Akhmedov - Welcome</title>
+	<link rel="icon" href="favicon.ico">
+	<!-- JQ Scripts and preloader -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		Pace.on('done', function () {
+    		$('.loader').fadeOut();
+    		new WOW().init();
+		});
+		Pace.on('start',function () {
+ 		 setTimeout(function () {
+    		Pace.stop();
+  		}, 30000)
+})
+		//loader settings
+		var paceCheck = setInterval(paceAttrGet, 30);
+		function paceAttrGet() {
+  		var paceAttr = $('.pace-progress').attr('data-progress-text');
+  		$('.loader .text p').html(paceAttr);
+  		if ($('.pace').hasClass('pace-inactive')) {
+    	clearInterval(paceCheck);
+  		}
+		}
+	</script>
+	<!-- Bootstrap & Fontawesome CDN CSS -->
+	<link rel="stylesheet" href="libs/css/bootstrap.min.css">
+	<link href="libs/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- Fonts Here -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700,900,900i" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130666697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130666697-1');
+</script>
+</head>
+
+
+<body>
+	<!-- Спасибо Proweb! -->
+	<!-- Максим, мой сенсей, красавчик! -->
+	<div class="menu-slide-open">
+		<div class="content">
+			<div class="close-menu">
+				<span></span>
+				<span></span>
+			</div>
+			<div class="text">
+				<ul>
+					<li><a href="#home" class="menu-link active">Home</a></li>
+					<li><a href="#about" class="menu-link">About</a></li>
+					<li><a href="#projects" class="menu-link">Projects</a></li>
+					<li><a href="#resume" class="menu-link">Resume</a></li>
+					<li><a href="#contacts" class="menu-link">Contacts</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="loader">
+		<div class="content">
+			<div class="img">
+				<img src="img/newlogosimplenobg.png" alt="">
+			</div>
+			<div class="text">
+				<div class="loadborder">
+				</div>
+				<p></p>
+			</div>
+			<div class="tip">
+				<i>pro tip: for best experience use a monitor</i>
+			</div>
+		</div>
+	</div>
+	<header id="home">
+		<div class="bg">
+			<div id="particles-js"></div>
+			<div class="stars"></div>
+			<div class="twinkling"></div>
+		</div>
+		<div class="menu-top">
+			<div class="container top">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/newlogosimplenobg.png" alt="" class="d-none d-md-block">
+						<img src="img/mobile.png" alt="" class="d-block d-md-none"> </a>
+				</div>
+				<div class="menu-slide">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="textbox wow fadeInRight" data-wow-duration="3s">
+				<h1>Hi! Shaxko here.<br>Front-End Developer.<br>Welcome to my world. <span>Enjoy.</span>
+				</h1>
+			</div>
+			<ul class="social wow fadeInUp" data-wow-duration="4s" data-wow-delay="3s">
+				<li>
+					<a href="https://t.me/vafodor" class="social-link">
+						<i class="fa fa-telegram" aria-hidden="true"></i>
+						<span>Telegram</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/21akhmedov" class="social-link">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						<span>Instagram</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/Vafodor" class="social-link">
+						<i class="fa fa-github" aria-hidden="true"></i>
+						<span>Github</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="menu-bottom">
+			<a href="#about" class="menu-link-header" data-tilt="" data-tilt-speed="400" data-tilt-max="25">
+				<div class="text">About</div>
+			</a>
+			<a href="#projects" class="menu-link-header" data-tilt="" data-tilt-speed="400" data-tilt-max="25">
+				<div class="text">projects</div>
+			</a>
+			<a href="#resume" class="menu-link-header" data-tilt="" data-tilt-speed="400" data-tilt-max="25">
+				<div class="text">resume</div>
+			</a>
+			<a href="#contacts" class="menu-link-header" data-tilt="" data-tilt-speed="400" data-tilt-max="25">
+				<div class="text">contacts</div>
+			</a>
+		</div>
+	</header>
+	<section id="about">
+		<div class="container">
+			<div class="title">
+				<h3>What I do?</h3>
+			</div>
+			<div class="content do">
+				<div class="featurebox">
+					<div id="svg1" class="svg-wrap">
+					</div>
+					<h4 class="svgtitle">html5</h4>
+				</div>
+				<div class="featurebox">
+					<div id="svg2" class="svg-wrap">
+					</div>
+					<h4 class="svgtitle">css3</h4>
+				</div>
+				<div class="featurebox">
+					<div id="svg3" class="svg-wrap">
+					</div>
+					<h4 class="svgtitle">JavaScript</h4>
+				</div>
+				<div class="featurebox">
+					<div id="svg4" class="svg-wrap">
+					</div>
+					<h4 class="svgtitle">Angular</h4>
+				</div>
+			</div>
+			<div class="title wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+				<h3>What I use?</h3>
+			</div>
+			<div class="content use wow fadeInUp" data-wow-duration="5s" data-wow-delay="1s">
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/typescript.svg" type=""></object>
+					</div>
+					<h4>TypeScript</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/bootstrap-seeklogo.com.svg" type=""></object>
+					</div>
+					<h4>Bootstrap</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/squares-gallery-grid-layout-interface-symbol.svg" type=""></object>
+					</div>
+					<h4>CSS Grid</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/jquery-seeklogo.com.svg" type=""></object>
+					</div>
+					<h4>jQuery</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/books.svg" type=""></object>
+					</div>
+					<h4>jq Libraries</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/gulp-seeklogo.com.svg" type=""></object>
+					</div>
+					<h4>Gulp</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/LESS.svg" type=""></object>
+					</div>
+					<h4>less</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/sass.svg" type=""></object>
+					</div>
+					<h4>Sass</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/wordpress.svg" type=""></object>
+					</div>
+					<h4>cms wordpress</h4>
+				</div>
+				<div class="featurebox">
+					<div class="svg-wrap">
+						<object data="svg/opencart.svg" type=""></object>
+					</div>
+					<h4>cms Opencart</h4>
+				</div>
+			</div>
+			<div class="title wow fadeInDown" data-wow-duration="2s">
+				<h3>What YOU get?</h3>
+			</div>
+			<div class="content get">
+				<div class="featurebox wow fadeInUp" data-wow-duration="5s">
+					<div class="svg-wrap">
+						<object data="svg/award.svg" type=""></object>
+					</div>
+					<h4>1. Quality</h4>
+				</div>
+				<div class="featurebox wow fadeInUp" data-wow-duration="3s" data-wow-delay="1s">
+					<div class="svg-wrap">
+						<object data="svg/responsive-design.svg" type=""></object>
+					</div>
+					<h4>2. Adaptive</h4>
+				</div>
+				<div class="featurebox wow fadeInUp" data-wow-duration="3s" data-wow-delay="1.5s">
+					<div class="svg-wrap">
+						<object data="svg/website.svg" type=""></object>
+					</div>
+					<h4>3. Cross-browser</h4>
+				</div>
+				<div class="featurebox wow fadeInUp" data-wow-duration="3s" data-wow-delay="2s">
+					<div class="svg-wrap">
+						<object data="svg/trend.svg" type=""></object>
+					</div>
+					<h4>4. Modern</h4>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+	
+	<section id="resume">
+		<div class="container">
+			<div class="title wow fadeInDown" data-wow-duration="2s">
+				<h3>My resume</h3>
+			</div>
+			<div class="content wow fadeInUp" data-wow-duration="2s">
+				<div class="center">
+					<img src="img/shaxk.jpg" alt="rasm">
+					<div class="info">
+						<h2>basic info</h2>
+					</div>
+					<h5>First Name:</h5>
+					<h4 class="res-title" id="name1"></h4>
+					<h5>Last Name:</h5>
+					<h4 class="res-title" id="name2"></h4>
+					<h5>Occupation:</h5>
+					<h4 id="occ"></h4>
+					<h5>Education:</h5>
+					<h4><a id="uni1" href="https://inha.uz/" class="res-link"></a> <br><a href="https://proweb.uz/" id="uni2" class="res-link"></a>
+					</h4>
+					<h5>Languages:</h5>
+					<h4 id="lang"></h4>
+					<div class="info cv">
+						<h2>cv | resumé</h2>
+					</div>
+					<a href="docs/resumeEn.pdf" class="res">
+						English
+					</a>
+					<a href="docs/resumeRu.pdf" class="res">
+						Russian</a>
+					<div class="flipper"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+
+
+
+	<script src="libs/js/particles.min.js"></script>
+	<script src="libs/js/vivus.min.js"></script>
+	<script src="libs/js/wow.min.js"></script>
+	<script src="libs/js/masonry.pkgd.min.js"></script>
+	<script src="libs/js/tilt.jquery.js"></script>
+	<script src="libs/js/typed.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
